@@ -43,3 +43,36 @@ nav a {
 nav a:hover {
   color: #ff6600;
 }
+/* ===== Hero Section ===== */
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0a7cff, #00c6ff);
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff6600;
+  color: #fff;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e65c00;
+}
